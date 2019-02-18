@@ -42,7 +42,7 @@ Highcharts.chart('container', {
 
 	series: [{
 		keys: ['x', 'y'],
-		color: 'orange',
+		color: 'ochre',
 		data: [
 			[0,0],
 			[1,0],
