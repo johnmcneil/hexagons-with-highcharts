@@ -42,13 +42,14 @@ Highcharts.chart('container', {
 
 	series: [{
 		keys: ['x', 'y'],
-		color: 'ochre',
+		color: 'orange',
 		data: [
 			[0,0],
 			[1,0],
 			[2,0],
 			[3,0],
 			[4,0],
+			[0,1],
 			[1,1],
 			[2,1],
 			[3,1],
@@ -58,6 +59,7 @@ Highcharts.chart('container', {
 			[2,2],
 			[3,2],
 			[4,2],
+			[0,3],
 			[1,3],
 			[2,3],
 			[3,3],
