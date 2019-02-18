@@ -8,12 +8,24 @@ Highcharts.chart('container', {
 		text: 'hexagons!'
 	},
 
-	subtitle {
+	subtitle: {
 		text: 'the shapes that brought you honey, food of the gods'
 	},
 
+	xAxis: {
+		visible: false
+	}, 
+
+	yAxis: {
+		visible: false
+	},
+
+	legend: {
+		enabled: false
+	},
+
 	tooltip: {
-		pointFormat: 'x: {point.x}<br />y: {point: y}'
+		pointFormat: 'x: {point.x}<br />y: {point.y}'
 	},
 
 	plotOptions: {
@@ -30,7 +42,7 @@ Highcharts.chart('container', {
 
 	series: [{
 		keys: ['x', 'y'],
-		color: 'teal',
+		color: 'orange',
 		data: [
 			[0,0],
 			[1,0],
@@ -52,4 +64,4 @@ Highcharts.chart('container', {
 			[4,3]
 		]
 	}]
-}
+});
